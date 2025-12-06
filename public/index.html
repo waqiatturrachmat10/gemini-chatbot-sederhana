@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>🤖 Gemini Chatbot</h2>
+        </header>
+
+        <div id="chat-box">
+            <div class="message bot-message">
+                <strong>Bot:</strong> <span class="text-content">Halo! Ada yang bisa saya bantu hari ini?</span>
+            </div>
+        </div>
+
+        <form id="chat-form">
+            <input type="text" id="user-input" placeholder="Ketik pesan Anda..." autocomplete="off" required>
+            
+            <button type="button" id="reset-btn" title="Hapus Chat">🔄</button>
+            
+            <button type="submit" title="Kirim Pesan">➤</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
